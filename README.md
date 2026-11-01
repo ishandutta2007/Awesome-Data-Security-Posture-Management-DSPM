@@ -32,73 +32,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Data Security Posture Management (DSPM) market is estimated at **$1.1B–$2.2B in 2025** and projected to reach **$4.0B–$7.2B by 2030**, growing at a **CAGR of ~20%–25%**. The sector is currently **moderately fragmented**—pioneered by specialized pure-play innovators (such as Cyera, BigID, and Sentra) but undergoing rapid consolidation as cybersecurity and CNAPP heavyweights (Palo Alto Networks, CrowdStrike, Proofpoint, Veeam, Zscaler) acquire startups or embed native DSPM capabilities into unified cloud security suites.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Cyera](https://cyera.io/)**
-
-  **AI-native DSPM** platform for cloud data discovery and classification. **Pricing**: **AWS Marketplace Standard Package $50,000/year for up to 25 TB**; **Business $100,000/year up to 100 TB**; **Enterprise $250,000/year up to 250 TB**; direct enterprise pricing custom quoted . Third-party median annual contract value reported at **~$575,000** (small sample, not representative) . **Free tier**: None; no self-serve trial. **Best for**: enterprises wanting AI-driven data classification with volume-tiered marketplace purchasing—**trade-off**: no free tier; six-figure minimum commitment.
-
-
-
-- **[Normalyze](https://normalyze.ai/)**
-
-  **DSPM platform** for cloud data security. **Pricing**: **Quote-only**; no public pricing. **Free tier**: None. **Best for**: cloud-first organizations wanting agentless DSPM—**trade-off**: sales-led evaluation.
-
-
-
-- **[Sentra](https://sentra.io/)**
-
-  **Cloud-native DSPM** with data store discovery and access analysis. **Pricing**: **Licensed by volume of data at-rest** across IaaS, PaaS, DBaaS, SaaS, and on-premises environments—not by users, seats, or infrastructure size . **Free tier**: None; quote-only. **Best for**: teams wanting pricing tied to actual data volume rather than headcount—**trade-off**: no self-serve; quote required.
-
-
-
-- **[BigID](https://bigid.com/)**
-
-  **Data intelligence platform** with DSPM, DLP, and AI security. **Pricing**: **Contact sales only**—quoted per data sources, data volume scanned, environment count, and licensed pillars (Data Security, Privacy, AI Security, Catalog); **no self-serve price list** . **Free tier**: None. **Best for**: enterprises wanting broad data intelligence across security, privacy, and AI—**trade-off**: complex licensing; 1,000+ pre-trained classifiers across 100+ languages .
-
-
-
-- **[Securiti](https://securiti.ai/)**
-
-  **AI-powered data security and governance** with DSPM. **Pricing**: **Custom pricing based on data volume and modules**; modular subscription . **Free tier**: None. **Best for**: organizations wanting DSPM bundled with privacy automation and compliance—**trade-off**: module complexity.
-
-
-
-- **[Varonis](https://www.varonis.com/)**
-
-  **Data security platform** with DSPM capabilities. **Pricing**: **Quote-only**; no public pricing. **Free tier**: None. **Best for**: enterprises wanting data-centric security with insider risk focus—**trade-off**: sales-led; enterprise pricing.
-
-
-
-- **[Symmetry Systems DataGuard](https://www.symmetry-systems.com/)**
-
-  **DSPM platform** for data discovery, classification, access control, and AI governance. **Pricing**: **Commercial; price not published**; on-premises deployment . **Free tier**: None. **Best for**: organizations wanting on-premises DSPM with vendor support and SLAs—**trade-off**: no public pricing.
-
-
-
-- **[Prisma Cloud DSPM](https://www.paloaltonetworks.com/prisma/cloud)** (formerly Dig Security)
-
-  **DSPM within Prisma Cloud** for multi-cloud data discovery and governance. **Pricing**: **Credit-based metering**—IaaS/PaaS assets: **1 credit per data asset**; DBaaS assets: **1 credit per TB of data volume**; SaaS assets: **0.1 credit per user** in supported SaaS applications . **Free tier**: None. **Best for**: Palo Alto customers wanting DSPM integrated with CNAPP—**trade-off**: credit model requires asset inventory modeling.
-
-
-
-- **[CrowdStrike Falcon Data Security for SaaS](https://www.crowdstrike.com/)**
-
-  **SaaS data security** within Falcon platform. **Pricing**: **Quote-only**; requires Falcon platform subscription. **Free tier**: None. **Best for**: CrowdStrike customers wanting SaaS data visibility—**trade-off**: limited to SaaS ecosystem; not multi-cloud data store scanning.
-
-
+| Company & Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limit | Key Focus & Deployment |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Palo Alto Networks (Prisma Cloud DSPM)](https://www.paloaltonetworks.com/prisma/cloud)** | **~$105B+ Market Cap** ($9.2B FY25 Revenue) | **$18,000/year baseline commitment** (Credit model: 1 credit/IaaS-PaaS asset, 1 credit/TB DBaaS, 0.1 credit/SaaS user) | **30-day guided free trial** (scoped to evaluation cloud accounts & data volumes; contact sales) | Full CNAPP + DSPM multi-cloud data discovery & risk posture |
+| **[CrowdStrike (Falcon Data Security)](https://www.crowdstrike.com/)** | **~$80B–$100B+ Market Cap** ($3.95B FY25 Revenue) | **$59.99/device/year** (Falcon Go entry tier; enterprise SaaS DSPM contracts typically start at **$20,000–$50,000/year**) | **15-day free trial** (Falcon platform modules, up to 100 endpoints) | SaaS ecosystem data security integrated into Falcon XDR platform |
+| **[Cyera](https://cyera.io/)** | **$12B Valuation** (Series G 2026; $100M+ ARR) | **$50,000/year** (AWS Marketplace Standard tier up to 25 TB; Business: $100k/100 TB; Enterprise: $250k/250 TB) | **No perpetual free plan; Proof-of-concept (POC)** & Free Data Risk Assessment (1–2 weeks scoped assessment) | AI-native DSPM with agentless multi-cloud discovery & classification |
+| **[Varonis](https://www.varonis.com/)** | **~$4.5B–$5.5B Market Cap** ($623.5M FY25 Revenue) | **$50–$95/user/year** (list benchmark for core DSP SaaS; custom volume tiers with enterprise minimums) | **30-day free trial** / Data Risk Assessment (limited to evaluation tenant & data footprint) | Data-centric security, automated remediation, and insider risk |
+| **[Securiti (Securiti.ai)](https://securiti.ai/)** | **$1.725B Valuation** (Acquired by Veeam in Oct 2025) | **$50,000/year platform fee** (Modular subscription based on data sources and connected environments) | **No perpetual free plan; Guided trial / interactive demo** (scoped evaluation by request) | AI-driven Data Command Center bundling DSPM, privacy, and compliance |
+| **[BigID](https://bigid.com/)** | **$1.25B Valuation** (~$100M ARR) | **$175,000/year** (AWS Marketplace Discovery Foundation tier; quoted per data sources & volume) | **No perpetual free plan; Scoped Data Risk Assessment** (limited-scope POC by request) | Broad data intelligence across DSPM, DLP, privacy, and AI governance |
+| **[Normalyze](https://normalyze.ai/)** | **~$100M–$250M Valuation** (Acquired by Proofpoint in Oct 2024) | **$0 (Free Tier) / Enterprise custom quote** (Scales by cloud accounts, storage accounts, and data volume) | **Free Forever Tier**: 1 connected cloud account (AWS, Azure, GCP, or Snowflake) with up to 30-day history | Agentless DSPM with continuous sensitive data asset & access graph mapping |
+| **[Sentra](https://sentra.io/)** | **~$200M+ Valuation** ($103M total funding) | **$50,000/year** (AWS Marketplace Standard tier; Essential: $100k; Advanced: $250k; Enterprise: $500k) | **No perpetual free plan; Tailored enterprise POC** (scoped evaluation by request) | Cloud-native DSPM priced by volume of data at-rest across IaaS/PaaS/SaaS |
+| **[Symmetry Systems DataGuard](https://www.symmetry-systems.com/)** | **~$50M+ Valuation** (Acquired by Zscaler in May 2026; $20M+ funding) | **$5,000/month ($60,000/year)** (AWS Marketplace DataGuard Express tier up to 25 TB; Essentials up to 100 TB) | **No perpetual free plan; Scoped assessment** (live data risk assessment session by request) | Hybrid & on-premise/in-VPC DSPM with fine-grained access governance |
 
 ## Open-Source GitHub Projects
 
