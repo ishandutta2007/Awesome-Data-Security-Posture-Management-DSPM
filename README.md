@@ -1,50 +1,68 @@
-# Awesome-Data-Security-Posture-Management-DSPM
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Data Security Posture Management (DSPM)" width="100%">
+</p>
 
-# Awesome-Data-Security-Posture-Management-DSPM
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM?style=flat-square" alt="Last Commit" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Top Data Security Posture Management DSPM (Opensource) 🌟 Star if you like it! 🌟**
+<h1 align="center">🛡️ Awesome Data Security Posture Management (DSPM) 🔍</h1>
 
+<p align="center">
+  <strong>The definitive curated list of Data Security Posture Management (DSPM) platforms, open-source sensitive data discovery tools, cloud posture scanners, access intelligence graph engines, and data risk scoring solutions.</strong>
+</p>
 
+<p align="center">
+  <em>Updated regularly to track the fast-evolving landscape across multi-cloud (AWS, Azure, GCP), databases, Snowflake, SaaS ecosystems, and on-premises data estates.</em>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+---
 
-*Focused on Sensitive Data Discovery, Access Intelligence, Data Store Risk Scoring & Self-Hosted DSPM Scanners*
+## 📑 Table of Contents
 
-**Last updated: November 2026**
+- [🌐 What is DSPM? (Overview &amp; Core Pillars)](#-what-is-dspm-overview--core-pillars)
+- [📊 Sector Overview &amp; Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS &amp; Hosted DSPM Platforms](#-saas--hosted-dspm-platforms)
+- [💻 Open-Source GitHub Projects &amp; Scanners](#-open-source-github-projects--scanners)
+- [🧩 Building an Open-Source DSPM Stack](#-building-an-open-source-dspm-stack)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support &amp; Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
+## 🌐 What is DSPM? (Overview & Core Pillars)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Security Posture Management (DSPM)**. These tools enable organizations to discover where sensitive data lives, who can access it, how it flows, and where the risk concentrates—from fully managed enterprise platforms with agentless multi-cloud scanning to open-source scanners that give teams control over their discovery pipeline.
+**Data Security Posture Management (DSPM)** is a cloud security discipline designed to protect sensitive data at rest, in transit, and in use across modern multi-cloud architectures. Traditional cloud security tools (like CSPM) monitor infrastructure misconfigurations, but fail to analyze **what data lives inside those assets** or **how valuable and exposed it is**.
 
+DSPM bridges this gap across five core pillars:
+1. 🔍 **Sensitive Data Discovery & Classification**: Automatically discover structured and unstructured data across IaaS, PaaS, DBaaS, SaaS, and object stores (S3, GCS, Azure Blobs, Snowflake). Classify PII, PHI, PCI, credentials, API keys, intellectual property, and custom data schemas.
+2. 👥 **Access Governance & Identity Intelligence**: Map data relationships against IAM roles, identities, service accounts, and external sharing to reveal effective access permissions.
+3. 🗺️ **Data Flow & Lineage Mapping**: Trace where shadow data originates, where it is replicated or backed up, and whether cross-region or cross-border data residency violations occur.
+4. ⚡ **Vulnerability & Exposure Risk Scoring**: Prioritize security findings by combining asset criticality, data sensitivity, public exposure, and exploitability.
+5. 🛡️ **Automated Remediation & Compliance Mapping**: Enforce security baselines mapped to GDPR, HIPAA, PCI-DSS, CCPA, and SOC 2, while triggering automated or guided remediation.
 
+---
 
-**Examples** include Cyera, Normalyze, Sentra, BigID, Securiti, Varonis, Symmetry Systems, Prisma Cloud DSPM (Dig Security), and CrowdStrike Falcon Data Security for SaaS (the category leaders in commercial space).
+## 📊 Sector Overview & Market Dynamics
 
+The global Data Security Posture Management (DSPM) market is estimated at **$1.1B–$2.2B in 2025** and projected to reach **$4.0B–$7.2B by 2030**, growing at a rapid **CAGR of ~20%–25%**. 
 
+The sector is currently **moderately fragmented**—pioneered by specialized pure-play innovators (such as Cyera, BigID, and Sentra) but undergoing aggressive consolidation. Cybersecurity conglomerates and Cloud-Native Application Protection Platform (CNAPP) leaders (including Palo Alto Networks, CrowdStrike, Proofpoint, Veeam, and Zscaler) are actively acquiring pure-play DSPM startups or baking deep data classification engines into comprehensive security suites.
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted sensitive data discovery, cloud scanning, and open DSPM infrastructure. **Critical note**: The open-source DSPM landscape is nascent—**Poirot DSPM** is the most actively developed purpose-built open-source scanner with TheHive integration and multi-source support , while **Mantissa Stance** offers agentless multi-cloud discovery but with limited public validation . No open-source project matches Cyera's data volume tiering or BigID's 1,000+ classifiers out of the box.
+---
 
+## 🏢 SaaS & Hosted DSPM Platforms
 
+The following table evaluates the leading commercial SaaS and hosted DSPM offerings. The table is sorted by **Company Size (Valuation / Market Capitalization / Annual Revenue) in descending order**:
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global Data Security Posture Management (DSPM) market is estimated at **$1.1B–$2.2B in 2025** and projected to reach **$4.0B–$7.2B by 2030**, growing at a **CAGR of ~20%–25%**. The sector is currently **moderately fragmented**—pioneered by specialized pure-play innovators (such as Cyera, BigID, and Sentra) but undergoing rapid consolidation as cybersecurity and CNAPP heavyweights (Palo Alto Networks, CrowdStrike, Proofpoint, Veeam, Zscaler) acquire startups or embed native DSPM capabilities into unified cloud security suites.
-
-## SaaS/Hosted Platforms
-
-| Company & Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limit | Key Focus & Deployment |
+| 🏢 Company & Platform | 💰 Company Size (Valuation / Revenue) | 🏷️ Starting Tier Pricing | ⏱️ Free Tier / Trial Limit | 🎯 Key Focus & Deployment |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Palo Alto Networks (Prisma Cloud DSPM)](https://www.paloaltonetworks.com/prisma/cloud)** | **~$105B+ Market Cap** ($9.2B FY25 Revenue) | **$18,000/year baseline commitment** (Credit model: 1 credit/IaaS-PaaS asset, 1 credit/TB DBaaS, 0.1 credit/SaaS user) | **30-day guided free trial** (scoped to evaluation cloud accounts & data volumes; contact sales) | Full CNAPP + DSPM multi-cloud data discovery & risk posture |
 | **[CrowdStrike (Falcon Data Security)](https://www.crowdstrike.com/)** | **~$80B–$100B+ Market Cap** ($3.95B FY25 Revenue) | **$59.99/device/year** (Falcon Go entry tier; enterprise SaaS DSPM contracts typically start at **$20,000–$50,000/year**) | **15-day free trial** (Falcon platform modules, up to 100 endpoints) | SaaS ecosystem data security integrated into Falcon XDR platform |
@@ -56,86 +74,147 @@ The global Data Security Posture Management (DSPM) market is estimated at **$1.1
 | **[Sentra](https://sentra.io/)** | **~$200M+ Valuation** ($103M total funding) | **$50,000/year** (AWS Marketplace Standard tier; Essential: $100k; Advanced: $250k; Enterprise: $500k) | **No perpetual free plan; Tailored enterprise POC** (scoped evaluation by request) | Cloud-native DSPM priced by volume of data at-rest across IaaS/PaaS/SaaS |
 | **[Symmetry Systems DataGuard](https://www.symmetry-systems.com/)** | **~$50M+ Valuation** (Acquired by Zscaler in May 2026; $20M+ funding) | **$5,000/month ($60,000/year)** (AWS Marketplace DataGuard Express tier up to 25 TB; Essentials up to 100 TB) | **No perpetual free plan; Scoped assessment** (live data risk assessment session by request) | Hybrid & on-premise/in-VPC DSPM with fine-grained access governance |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects & Scanners
 
+The open-source DSPM ecosystem is vibrant, consisting of purpose-built DSPM scanners, AI/NLP sensitive data classifiers, secret discovery engines, cloud asset graph collectors, and IAM privilege mappers.
 
-- **[Poirot DSPM](https://github.com/safernandez666/poirot-public)**
+The following list is sorted by **GitHub Star Counts in descending order**:
 
-  **Open-source Data Security Posture Management scanner** (license per repo) — **the most actively developed purpose-built open-source DSPM** found in this research . **Features**: **Multi-source scanning**—MySQL, S3, Apache Kafka, Google Drive, OneDrive; detects credit cards, credentials, and PII; **severity classification** (CRITICAL/HIGH/MEDIUM/LOW) with deduplication; **TheHive 5 integration**—automatically creates cases and syncs findings; **multi-channel notifications** (Slack, Email, Teams, Webhooks); **scheduled scans**; **Cyberpunk dashboard** with real-time KPIs; **professional reports** (PDF/Excel/JSON) with AI-powered analysis via Ollama . **Tech stack**: Python, Docker Compose. **Deploy**: `git clone` and `docker compose up -d`; dashboard at localhost:8080 . **Trade-off**: **Early-stage project**—no enterprise support or SLAs; source connectors limited to specific data stores; no agentless cloud scanning like commercial DSPM . **Best for**: security teams wanting a self-hosted DSPM scanner with TheHive case management and multi-source discovery—especially those already using TheHive for incident response.
+### 1. [Gitleaks](https://github.com/gitleaks/gitleaks) [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
+* **Category**: Secret & Sensitive Credential Detection
+* **Description**: Fast, lightweight engine for detecting and preventing hardcoded secrets, API keys, tokens, and sensitive data credentials in code repositories, git history, developer environments, and object files.
+* **Tech Stack**: Go
+* **License**: MIT
 
+### 2. [TruffleHog](https://github.com/trufflesecurity/trufflehog) [![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)
+* **Category**: Multi-Store High-Entropy Sensitive Data & Secret Scanner
+* **Description**: High-performance scanner that identifies sensitive keys, secrets, credentials, and data tokens across 800+ credential types. Capable of scanning Git repositories, AWS S3 buckets, Docker container images, and cloud filesystems with active credential verification.
+* **Tech Stack**: Go
+* **License**: AGPL-3.0
 
+### 3. [Prowler](https://github.com/prowler-cloud/prowler) [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
+* **Category**: Multi-Cloud Posture & Data Store Misconfiguration Assessment
+* **Description**: Comprehensive open-source security tool for AWS, Azure, GCP, and Kubernetes. Audits cloud data stores (S3 bucket exposure, encryption status, database access controls) against CIS Benchmarks, GDPR, HIPAA, and ISO 27001.
+* **Tech Stack**: Python
+* **License**: Apache-2.0
 
-- **[Mantissa Stance](https://www.producthunt.com/products/mantissa-stance)**
+### 4. [Microsoft Presidio](https://github.com/microsoft/presidio) [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)
+* **Category**: Context-Aware PII / PHI Discovery & Anonymization Engine
+* **Description**: Industrial-strength sensitive data identification and de-identification framework developed by Microsoft. Employs advanced NER (Named Entity Recognition), regular expressions, and context-aware pattern matching to locate PII, financial details, and medical records across unstructured data and text.
+* **Tech Stack**: Python (with support for spaCy, HuggingFace transformers, Docker)
+* **License**: MIT
 
-  **Open-source CSPM, DSPM, CIEM, and vulnerability management** (license per Product Hunt listing) — **the most comprehensive open-source cloud security platform with DSPM capabilities** . **Features**: **Agentless** cloud security visibility across **AWS, GCP, and Azure**; combines **CSPM** (misconfiguration detection), **DSPM** (sensitive data discovery), **CIEM** (identity and entitlement management), and **vulnerability management** in a single tool . **Tech stack**: Per repository. **Deploy**: Self-hosted. **Trade-off**: **Limited public validation**—Product Hunt listing is the primary source; no GitHub repository or documentation surfaced in search results. **Best for**: teams wanting an all-in-one open-source cloud security tool with DSPM included—**verify maturity and activity before production adoption**.
+### 5. [Steampipe](https://github.com/turbot/steampipe) [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)
+* **Category**: SQL-Based Cloud Asset & Data Store Discovery Engine
+* **Description**: Zero-ETL engine that allows security engineers to query multi-cloud infrastructure, databases, IAM privileges, and storage services using standard SQL. Serves as the queryable data discovery backbone for custom DSPM posture pipelines.
+* **Tech Stack**: Go, PostgreSQL foreign data wrappers
+* **License**: AGPL-3.0
 
+### 6. [CloudQuery](https://github.com/cloudquery/cloudquery) [![GitHub stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers)
+* **Category**: High-Performance Cloud Data Asset Inventory & Extraction
+* **Description**: Open-source high-throughput ELT framework for cloud infrastructure and SaaS assets. Extracts cloud metadata from AWS, GCP, Azure, and SaaS services into databases, empowering teams to build unified inventory tables of all data stores.
+* **Tech Stack**: Go
+* **License**: MPL-2.0
 
+### 7. [PMapper (Principal Mapper)](https://github.com/nccgroup/PMapper) [![GitHub stars](https://img.shields.io/github/stars/nccgroup/PMapper?style=social&color=white)](https://github.com/nccgroup/PMapper/stargazers)
+* **Category**: IAM Graph & Data Privilege Escalation Analyzer
+* **Description**: Graph-based analysis tool for AWS Identity and Access Management (IAM). Identifies hidden attack paths, privilege escalations, and over-permissive identity vectors leading to sensitive cloud data stores.
+* **Tech Stack**: Python, NetworkX
+* **License**: AGPL-3.0
 
-### Additional Strong Open-Source Options
+### 8. [Mantissa Stance](https://github.com/clay-good/mantissa-stance) [![GitHub stars](https://img.shields.io/github/stars/clay-good/mantissa-stance?style=social&color=white)](https://github.com/clay-good/mantissa-stance/stargazers)
+* **Category**: All-in-One Cloud DSPM, CSPM & CIEM Platform
+* **Description**: Open-source unified cloud security platform providing agentless posture management, PII/PHI sensitive data discovery across AWS S3 and object storage, identity graph entitlement analysis, and vulnerability detection.
+* **Tech Stack**: Go, TypeScript, React
+* **License**: Apache-2.0
 
+### 9. [Gandiva xSPM](https://github.com/h4r5h1t/gandiva-xspm) [![GitHub stars](https://img.shields.io/github/stars/h4r5h1t/gandiva-xspm?style=social&color=white)](https://github.com/h4r5h1t/gandiva-xspm/stargazers)
+* **Category**: Extended Security Posture & Data Asset Risk Explorer
+* **Description**: Open-source xSPM platform unifying cloud security posture, data store visualization, and compliance validation across multi-cloud and Kubernetes environments.
+* **Tech Stack**: Python, Steampipe integrations
+* **License**: MIT
 
-
-- **Lacework Terraform AWS DSPM Module** — Infrastructure-as-code module for deploying DSPM scanning in AWS (Terraform). Creates ECS Fargate scanner tasks, S3 bucket for results, EventBridge scheduling, and IAM roles for Lacework/FortiCNAPP integration . **Note**: **Deployment module, not a DSPM platform**—it deploys a commercial scanner (Lacework/FortiCNAPP). **Best for**: existing Lacework/FortiCNAPP customers wanting Terraform-managed DSPM deployment.
-
-- **enterprise-siem-platform DSPM module** — Open-source SIEM platform with a DSPM module (GitHub commit). Pattern-based detection (SSNs, credit cards), context analysis, risk assessment, compliance mapping (PCI-DSS, GDPR, HIPAA), scheduled scanning . **Note**: **Component within a larger SIEM project**, not a standalone DSPM product; commit-based documentation only. **Best for**: developers building custom SIEM with DSPM capabilities.
-
-
-
-**Frameworks for building custom systems**: **Poirot DSPM** is the most functional open-source starting point, combining multi-source scanning with TheHive integration. **Mantissa Stance** aims for broader cloud-native DSPM but needs validation. **No open-source project matches Cyera's data volume tiering or BigID's classifier library.**
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- DSPM platforms handling sensitive data must comply with data protection regulations (GDPR, CCPA, HIPAA, etc.) and implement appropriate access controls for discovered data and findings.
-
-- **The "agentless cloud DSPM" vs. "source-connector scanner" vs. "deployment module" distinction is critical.** **Cyera, Normalyze, Sentra, BigID, Securiti, Varonis, Symmetry, Prisma Cloud DSPM, and CrowdStrike** are **commercial DSPM platforms**—they provide agentless discovery across cloud data stores with classification and access analysis . **Poirot DSPM** is a **source-connector scanner**—it connects to specific data sources (MySQL, S3, Kafka) and scans them; no agentless cloud discovery . **Mantissa Stance** aims for **agentless cloud DSPM** but has limited public validation . **Lacework Terraform module** is a **deployment tool** for a commercial scanner. **Choose based on whether you need agentless cloud coverage, specific source scanning, or deployment automation.**
-
-- **Cyera's pricing is volume-tiered and six-figure minimum.** AWS Marketplace Standard is **$50,000/year for 25 TB**; Business is **$100,000/year for 100 TB**; Enterprise is **$250,000/year for 250 TB** . **Direct pricing is custom quoted and can exceed marketplace rates** . **Do not evaluate without enterprise budget approval.**
-
-- **Prisma Cloud DSPM credit metering is asset-type-dependent.** IaaS/PaaS assets cost **1 credit each**; DBaaS assets cost **1 credit per TB**; SaaS assets cost **0.1 credit per user** . **Model your asset mix before comparing costs—a database-heavy environment pays differently than a SaaS-heavy one.**
-
-- **Sentra's pricing is data-volume-based, not user-based.** It charges for **data at-rest** across all environments, not seats or infrastructure . **For organizations with large data stores but small teams, this can be advantageous; for data-light organizations, it may be less so.**
-
-- **BigID's licensing is complex**—quoted per data sources, volume, environment count, and licensed pillars. **Do not expect a simple per-TB or per-user rate.** The **1,000+ pre-trained classifiers across 100+ languages** are a genuine differentiator .
-
-- **Poirot DSPM is the most functional open-source DSPM** with TheHive integration and multi-source scanning, but it is **early-stage with no enterprise support** . **For security teams wanting a self-hosted scanner with case management, it is the starting point.**
-
-- **Mantissa Stance lacks public validation.** The Product Hunt listing claims agentless multi-cloud DSPM, but no GitHub repository or documentation surfaced . **Verify maturity before production adoption.**
-
-- **Pricing opacity is universal** across Normalyze, Sentra, BigID, Securiti, Varonis, Symmetry, Prisma Cloud DSPM, and CrowdStrike. All require sales contact or quote requests. **Cyera publishes marketplace tiers.** **Validate with direct vendor conversations against your data volume and cloud footprint.**
-
-- Self-hosted open-source solutions require proper infrastructure (Docker for Poirot, Python for enterprise-siem DSPM module), security hardening, and ongoing maintenance. **DSPM tools scan sensitive data stores**—ensure your deployment meets your organization's privacy and compliance requirements before connecting production data sources.
-
-
+### 10. [Poirot DSPM](https://github.com/safernandez666/poirot-public) [![GitHub stars](https://img.shields.io/github/stars/safernandez666/poirot-public?style=social&color=white)](https://github.com/safernandez666/poirot-public/stargazers)
+* **Category**: Purpose-Built Open-Source DSPM Scanner & Case Management
+* **Description**: Dedicated self-hosted DSPM scanner featuring multi-source discovery (MySQL, AWS S3, Apache Kafka, Google Drive, OneDrive). Provides sensitive data classification, automated TheHive 5 incident case sync, Ollama AI report generation, and a real-time monitoring dashboard.
+* **Tech Stack**: Python, Docker Compose
+* **License**: Open Source
 
 ---
 
+## 🧩 Building an Open-Source DSPM Stack
 
+Commercial DSPM tools package discovery, classification, access mapping, and incident management into a turnkey SaaS application. You can build an equivalent self-hosted or open-source DSPM workflow using complementary modular tools:
 
-**Made for data security engineers, cloud security teams, and organizations building transparent DSPM solutions.**
+```
+┌────────────────────────────────────────────────────────┐
+│ 1. DATA ASSET DISCOVERY & INVENTORY                    │
+│    Steampipe • CloudQuery • Prowler                    │
+│    - Scan AWS S3, GCS, Azure Blobs, RDS, Snowflake     │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────┐
+│ 2. SENSITIVE DATA CLASSIFICATION & SCANNING            │
+│    Microsoft Presidio • TruffleHog • Poirot DSPM       │
+│    - Detect PII, PHI, PCI, API Keys, Tokens, Passwords │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────┐
+│ 3. ACCESS GOVERNANCE & ATTACK PATH GRAPH               │
+│    PMapper • Mantissa Stance                           │
+│    - Correlate IAM permissions, public exposure & ACLs │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+                           ▼
+┌────────────────────────────────────────────────────────┐
+│ 4. INCIDENT CASE MANAGEMENT & REMEDIATION              │
+│    TheHive 5 • Webhooks • Slack / Teams Alerts         │
+│    - Triage high-risk exposed data & enforce baselines │
+└────────────────────────────────────────────────────────┘
+```
 
-Let's make Data Security Posture Management more open, data-driven, and discovery-aware.
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help make this the most up-to-date and comprehensive resource on Data Security Posture Management:
+
+1. 🍴 **Fork the repository** to your personal GitHub account.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-dspm-tool`).
+3. ✍️ **Add or refine an entry** in `README.md` keeping formatting consistent (include tool name, website/repo link, star badge, categorization, description, license, and pricing).
+4. 🧪 **Verify link integrity and markdown rendering**.
+5. 🚀 **Submit a Pull Request** with a concise description of why the tool should be added.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this DSPM curated repository helpful for your cloud security architecture, data risk assessments, or engineering research, please consider supporting the project:
+
+- ⭐ **Star the repository** to boost visibility for the cybersecurity community.
+- 🍴 **Fork and share** with fellow security engineers, CISOs, and cloud practitioners.
+- ☕ **Buy a coffee & sponsor ongoing research**:
+  
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+
+Thank you to all community contributors, security researchers, and sponsors who make open security knowledge possible! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This catalog is a **community-curated research guide** for informational purposes and does not represent an endorsement or SLA warranty.
+- **Enterprise DSPM vs. Point Tool Scanners**: Commercial platforms (Cyera, Normalyze, Sentra, BigID, Securiti, Varonis, Symmetry Systems, Prisma Cloud, CrowdStrike) provide turn-key agentless orchestration, petabyte-scale volume classifiers, and automated multi-cloud data graph visualization. Open-source tools require internal infrastructure, regular rule-tuning, and compute maintenance.
+- **Data Privacy & Governance Compliance**: Running discovery scanners across production data stores may involve processing regulated personal data (GDPR, CCPA, HIPAA). Ensure your scanner deployment adheres to your organization's legal, security, and internal data residency frameworks.
