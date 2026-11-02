@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Data-Security-Posture-Management-DSPM?style=flat-square" alt="Last Commit" /></a>
@@ -80,63 +80,63 @@ The following table evaluates the leading commercial SaaS and hosted DSPM offeri
 
 The open-source DSPM ecosystem is vibrant, consisting of purpose-built DSPM scanners, AI/NLP sensitive data classifiers, secret discovery engines, cloud asset graph collectors, and IAM privilege mappers.
 
-The following list is sorted by **GitHub Star Counts in descending order**:
+The following list is sorted by **GitHub Stars_Counts in descending order**:
 
-### 1. [Gitleaks](https://github.com/gitleaks/gitleaks) [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
+### 1. [Gitleaks](https://github.com/gitleaks/gitleaks) [![GitHub_Stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
 * **Category**: Secret & Sensitive Credential Detection
 * **Description**: Fast, lightweight engine for detecting and preventing hardcoded secrets, API keys, tokens, and sensitive data credentials in code repositories, git history, developer environments, and object files.
 * **Tech Stack**: Go
 * **License**: MIT
 
-### 2. [TruffleHog](https://github.com/trufflesecurity/trufflehog) [![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)
+### 2. [TruffleHog](https://github.com/trufflesecurity/trufflehog) [![GitHub_Stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)
 * **Category**: Multi-Store High-Entropy Sensitive Data & Secret Scanner
 * **Description**: High-performance scanner that identifies sensitive keys, secrets, credentials, and data tokens across 800+ credential types. Capable of scanning Git repositories, AWS S3 buckets, Docker container images, and cloud filesystems with active credential verification.
 * **Tech Stack**: Go
 * **License**: AGPL-3.0
 
-### 3. [Prowler](https://github.com/prowler-cloud/prowler) [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
+### 3. [Prowler](https://github.com/prowler-cloud/prowler) [![GitHub_Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
 * **Category**: Multi-Cloud Posture & Data Store Misconfiguration Assessment
 * **Description**: Comprehensive open-source security tool for AWS, Azure, GCP, and Kubernetes. Audits cloud data stores (S3 bucket exposure, encryption status, database access controls) against CIS Benchmarks, GDPR, HIPAA, and ISO 27001.
 * **Tech Stack**: Python
 * **License**: Apache-2.0
 
-### 4. [Microsoft Presidio](https://github.com/microsoft/presidio) [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)
+### 4. [Microsoft Presidio](https://github.com/microsoft/presidio) [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)
 * **Category**: Context-Aware PII / PHI Discovery & Anonymization Engine
 * **Description**: Industrial-strength sensitive data identification and de-identification framework developed by Microsoft. Employs advanced NER (Named Entity Recognition), regular expressions, and context-aware pattern matching to locate PII, financial details, and medical records across unstructured data and text.
 * **Tech Stack**: Python (with support for spaCy, HuggingFace transformers, Docker)
 * **License**: MIT
 
-### 5. [Steampipe](https://github.com/turbot/steampipe) [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)
+### 5. [Steampipe](https://github.com/turbot/steampipe) [![GitHub_Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)
 * **Category**: SQL-Based Cloud Asset & Data Store Discovery Engine
 * **Description**: Zero-ETL engine that allows security engineers to query multi-cloud infrastructure, databases, IAM privileges, and storage services using standard SQL. Serves as the queryable data discovery backbone for custom DSPM posture pipelines.
 * **Tech Stack**: Go, PostgreSQL foreign data wrappers
 * **License**: AGPL-3.0
 
-### 6. [CloudQuery](https://github.com/cloudquery/cloudquery) [![GitHub stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers)
+### 6. [CloudQuery](https://github.com/cloudquery/cloudquery) [![GitHub_Stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers)
 * **Category**: High-Performance Cloud Data Asset Inventory & Extraction
 * **Description**: Open-source high-throughput ELT framework for cloud infrastructure and SaaS assets. Extracts cloud metadata from AWS, GCP, Azure, and SaaS services into databases, empowering teams to build unified inventory tables of all data stores.
 * **Tech Stack**: Go
 * **License**: MPL-2.0
 
-### 7. [PMapper (Principal Mapper)](https://github.com/nccgroup/PMapper) [![GitHub stars](https://img.shields.io/github/stars/nccgroup/PMapper?style=social&color=white)](https://github.com/nccgroup/PMapper/stargazers)
+### 7. [PMapper (Principal Mapper)](https://github.com/nccgroup/PMapper) [![GitHub_Stars](https://img.shields.io/github/stars/nccgroup/PMapper?style=social&color=white)](https://github.com/nccgroup/PMapper/stargazers)
 * **Category**: IAM Graph & Data Privilege Escalation Analyzer
 * **Description**: Graph-based analysis tool for AWS Identity and Access Management (IAM). Identifies hidden attack paths, privilege escalations, and over-permissive identity vectors leading to sensitive cloud data stores.
 * **Tech Stack**: Python, NetworkX
 * **License**: AGPL-3.0
 
-### 8. [Mantissa Stance](https://github.com/clay-good/mantissa-stance) [![GitHub stars](https://img.shields.io/github/stars/clay-good/mantissa-stance?style=social&color=white)](https://github.com/clay-good/mantissa-stance/stargazers)
+### 8. [Mantissa Stance](https://github.com/clay-good/mantissa-stance) [![GitHub_Stars](https://img.shields.io/github/stars/clay-good/mantissa-stance?style=social&color=white)](https://github.com/clay-good/mantissa-stance/stargazers)
 * **Category**: All-in-One Cloud DSPM, CSPM & CIEM Platform
 * **Description**: Open-source unified cloud security platform providing agentless posture management, PII/PHI sensitive data discovery across AWS S3 and object storage, identity graph entitlement analysis, and vulnerability detection.
 * **Tech Stack**: Go, TypeScript, React
 * **License**: Apache-2.0
 
-### 9. [Gandiva xSPM](https://github.com/h4r5h1t/gandiva-xspm) [![GitHub stars](https://img.shields.io/github/stars/h4r5h1t/gandiva-xspm?style=social&color=white)](https://github.com/h4r5h1t/gandiva-xspm/stargazers)
+### 9. [Gandiva xSPM](https://github.com/h4r5h1t/gandiva-xspm) [![GitHub_Stars](https://img.shields.io/github/stars/h4r5h1t/gandiva-xspm?style=social&color=white)](https://github.com/h4r5h1t/gandiva-xspm/stargazers)
 * **Category**: Extended Security Posture & Data Asset Risk Explorer
 * **Description**: Open-source xSPM platform unifying cloud security posture, data store visualization, and compliance validation across multi-cloud and Kubernetes environments.
 * **Tech Stack**: Python, Steampipe integrations
 * **License**: MIT
 
-### 10. [Poirot DSPM](https://github.com/safernandez666/poirot-public) [![GitHub stars](https://img.shields.io/github/stars/safernandez666/poirot-public?style=social&color=white)](https://github.com/safernandez666/poirot-public/stargazers)
+### 10. [Poirot DSPM](https://github.com/safernandez666/poirot-public) [![GitHub_Stars](https://img.shields.io/github/stars/safernandez666/poirot-public?style=social&color=white)](https://github.com/safernandez666/poirot-public/stargazers)
 * **Category**: Purpose-Built Open-Source DSPM Scanner & Case Management
 * **Description**: Dedicated self-hosted DSPM scanner featuring multi-source discovery (MySQL, AWS S3, Apache Kafka, Google Drive, OneDrive). Provides sensitive data classification, automated TheHive 5 incident case sync, Ollama AI report generation, and a real-time monitoring dashboard.
 * **Tech Stack**: Python, Docker Compose
@@ -185,7 +185,7 @@ Contributions are warmly welcomed! Help make this the most up-to-date and compre
 
 1. 🍴 **Fork the repository** to your personal GitHub account.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-dspm-tool`).
-3. ✍️ **Add or refine an entry** in `README.md` keeping formatting consistent (include tool name, website/repo link, star badge, categorization, description, license, and pricing).
+3. ✍️ **Add or refine an entry** in `README.md` keeping formatting consistent (include tool name, website/repo link, Stars_Badge, categorization, description, license, and pricing).
 4. 🧪 **Verify link integrity and markdown rendering**.
 5. 🚀 **Submit a Pull Request** with a concise description of why the tool should be added.
 
